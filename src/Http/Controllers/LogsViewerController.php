@@ -103,7 +103,7 @@ class LogsViewerController extends Controller
         }
 
         // Split by dates like [YYYY-MM-DD ...]
-        $pattern = "/\n(?=\[[0-9]{4}-[0-9]{2}-[0-9]{2}[^\n]*\])";
+        $pattern = "/\n(?=\[[0-9]{4}-[0-9]{2}-[0-9]{2}[^\n]*\])/";
         $chunks = preg_split($pattern, $content);
 
         if ($chunks === false) {
