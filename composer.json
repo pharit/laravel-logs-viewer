@@ -1,5 +1,5 @@
 {
-  "name": "tong/laravel-logs-viewer",
+  "name": "pharit/laravel-logs-viewer",
   "description": "A simple Laravel logs viewer using Bootstrap 5.",
   "type": "library",
   "license": "MIT",
@@ -10,13 +10,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Tong\\LaravelLogsViewer\\": "src/"
+      "Pharit\\LaravelLogsViewer\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Tong\\LaravelLogsViewer\\LogsViewerServiceProvider"
+        "Pharit\\LaravelLogsViewer\\LogsViewerServiceProvider"
       ]
     }
   },
