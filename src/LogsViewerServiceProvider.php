@@ -1,6 +1,6 @@
 <?php
 
-namespace Tong\LaravelLogsViewer;
+namespace Pharit\LaravelLogsViewer;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;

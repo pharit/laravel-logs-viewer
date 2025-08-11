@@ -1,6 +1,6 @@
 <?php
 
-namespace Tong\LaravelLogsViewer\Http\Controllers;
+namespace Pharit\LaravelLogsViewer\Http\Controllers;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Filesystem\Filesystem;
